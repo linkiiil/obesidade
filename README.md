@@ -1,9 +1,9 @@
 # Obesidade
-🩺 Analisador de Perfil de Saúde e Estilo de Vida
+### 🩺 Analisador de Perfil de Saúde e Estilo de Vida
 
 Este projeto utiliza Aprendizado de Máquina Não Supervisionado para segmentar perfis de saúde com base em hábitos alimentares, atividade física e dados demográficos. O objetivo é ir além do IMC tradicional, identificando grupos comportamentais (clusters) que permitem intervenções de saúde mais personalizadas.
 
-🚀 Funcionalidades
+### 🚀 Funcionalidades
 
 Segmentação em 5 Clusters: Identificação de perfis que variam desde o "Sênior Sedentário" até a "Obesidade Tipo III".
 
@@ -13,7 +13,7 @@ Visualização Científica: Abas dedicadas para análise de redução de dimensi
 
 Sensibilidade Decimal: Modelo calibrado para entender nuances de hábito (ex: alguém que não é 100% sedentário nem 100% ativo).
 
-🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
 Linguagem: Python 3.8+
 
@@ -25,7 +25,7 @@ Interface: Streamlit
 
 Processamento: Pandas, Numpy, Joblib
 
-📁 Estrutura do Repositório
+### 📁 Estrutura do Repositório
 
 obesidade.py: Código-fonte da aplicação Streamlit.
 
@@ -35,7 +35,7 @@ requirements.txt: Lista de dependências para rodar o projeto.
 
 Projeto - Obesidade.pdf: Documentação técnica detalhada com hipóteses e conclusões.
 
-📊 Os 5 Clusters Identificados
+### 📊 Os 5 Clusters Identificados
 
 Cluster 0 - Sênior Sedentário: Indivíduos mais velhos, dependentes de automóveis.
 
@@ -47,7 +47,7 @@ Cluster 3 - Meal Skipper: Rotina alimentar desregulada (pula refeições).
 
 Cluster 4 - Alto Risco (Obesidade III): Estado metabólico isolado com alto IMC e influência genética.
 
-🔧 Como Executar
+### 🔧 Como Executar
 
 Certifique-se de ter o Python instalado.
 
@@ -62,6 +62,6 @@ Bash
 
 streamlit run obesidade.py
 
-📝 Nota sobre os Dados
+### 📝 Nota sobre os Dados
 
 Este projeto utiliza o dataset de níveis de obesidade da UCI (México, Peru e Colômbia). Para garantir o equilíbrio das classes e a precisão do modelo, 77% dos dados foram gerados sinteticamente via SMOTE, permitindo que o sistema aprenda as "fronteiras suaves" entre os diferentes estilos de vida.
