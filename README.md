@@ -27,13 +27,13 @@ Processamento: Pandas, Numpy, Joblib
 
 ### 📁 Estrutura do Repositório
 
-obesidade.py: Código-fonte da aplicação Streamlit.
+├── obesidade.py: Código-fonte da aplicação Streamlit.
 
-modelo_cluster_obesidade_vtl.pkl: Pipeline completo (Preprocessor + K-Means) e coordenadas espaciais pré-calculadas.
+├── modelo_cluster_obesidade_vtl.pkl: Pipeline completo (Preprocessor + K-Means) e coordenadas espaciais pré-calculadas.
 
-requirements.txt: Lista de dependências para rodar o projeto.
+├── requirements.txt: Lista de dependências para rodar o projeto.
 
-Projeto - Obesidade.pdf: Documentação técnica detalhada com hipóteses e conclusões.
+├── Projeto - Obesidade.pdf: Documentação técnica detalhada com hipóteses e conclusões.
 
 ### 📊 Os 5 Clusters Identificados
 
